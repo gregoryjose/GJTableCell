@@ -1,0 +1,6 @@
+framework module GJTableCell {
+  umbrella header "GJTableCell-umbrella.h"
+
+  export *
+  module * { export * }
+}

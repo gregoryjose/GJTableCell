@@ -1,0 +1,16 @@
+PODS:
+  - GJTableCell (0.1.0)
+
+DEPENDENCIES:
+  - GJTableCell (from `../`)
+
+EXTERNAL SOURCES:
+  GJTableCell:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GJTableCell: 96bb5a6ea25c32ad4690a06add377015665ba7af
+
+PODFILE CHECKSUM: fa8c5289cce44152c03e97cea1a794415de945a6
+
+COCOAPODS: 1.0.1
