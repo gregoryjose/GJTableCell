@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GJTableCell_Example' do
+  pod 'GJTableCell', :path => '../'
+
+  target 'GJTableCell_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
