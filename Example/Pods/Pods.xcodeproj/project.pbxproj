@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07DBF78C8A879FC460C47933361CD73D /* GJTableCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DCBDBA622177A4D563A5DE40F52FCA /* GJTableCell-dummy.m */; };
-		2FE1A985DAF9B5880C5436E6B8E08518 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		483B96D7E985F540FA3A723C1DB5EBC0 /* GJTableCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F8CD41C6F45219838877C72E60BF6E /* GJTableCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5ABC7C11F8B426F73DC08F99EA443D3D /* Pods-GJTableCell_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B2D3C3B5311F9B81F1669492C450CE /* Pods-GJTableCell_Example-dummy.m */; };
 		612F96F0C62129C25645127FB1F4C08B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6AE168997783DC0C2246D8E700E68911 /* GJTableCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DCBDBA622177A4D563A5DE40F52FCA /* GJTableCell-dummy.m */; };
 		6CC9E7B5D443CA535CF279CF22895B48 /* Pods-GJTableCell_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DD94AB06B8AB5198613B4AFCC3B754 /* Pods-GJTableCell_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87C81B25DFA91DC90FAF2D28544B6263 /* Pods-GJTableCell_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE8CBEE7A032019ABC2FCEA69FF9B12 /* Pods-GJTableCell_Tests-dummy.m */; };
+		98E38C51FD59F208BC20DCAC9BFE1C2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B434774D9DC6403ABCF061514736A53D /* GJTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38411204525E2CF4CD94DDC7F4F44839 /* GJTableCell.swift */; };
 		B4E49DE574F919C70A2961A111AE6D4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		B57369E61DB438A889A8D17671C7EAC5 /* Pods-GJTableCell_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DE29445AFCB84C35084916FDF9262F /* Pods-GJTableCell_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0AEA1D5002D8EEDC28FC71662B226FE /* GJTableCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F8CD41C6F45219838877C72E60BF6E /* GJTableCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F374D7D61D40B8E3008C1782 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374D7D51D40B8E3008C1782 /* TableCell.swift */; };
+		BD07C7A302D016F7AF4CCE111BF128DC /* GJTableCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 99D11D88A0C1A5F4319BFC63D59BA86E /* GJTableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 10EF289F11D22F9185ED416E5B6283B5;
+			remoteGlobalIDString = 9FD3764829C93E8458BAEF5E822B48A8;
 			remoteInfo = GJTableCell;
 		};
 /* End PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		0D06B564624E8793469ED03DCFEB0253 /* Pods-GJTableCell_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GJTableCell_Example-resources.sh"; sourceTree = "<group>"; };
 		14DD94AB06B8AB5198613B4AFCC3B754 /* Pods-GJTableCell_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GJTableCell_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2EFBCF4B18C059AC801B4CCAD7E46C27 /* Pods_GJTableCell_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJTableCell_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38411204525E2CF4CD94DDC7F4F44839 /* GJTableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GJTableCell.swift; sourceTree = "<group>"; };
 		4AE8CBEE7A032019ABC2FCEA69FF9B12 /* Pods-GJTableCell_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GJTableCell_Tests-dummy.m"; sourceTree = "<group>"; };
 		60B2D3C3B5311F9B81F1669492C450CE /* Pods-GJTableCell_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GJTableCell_Example-dummy.m"; sourceTree = "<group>"; };
 		6A1BAE307BD08C6CD8663B45F61774E8 /* Pods-GJTableCell_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GJTableCell_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 		90F8CD41C6F45219838877C72E60BF6E /* GJTableCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJTableCell-umbrella.h"; sourceTree = "<group>"; };
 		91D1C8927524E422281231AA1D2F6F86 /* Pods-GJTableCell_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GJTableCell_Tests-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99D11D88A0C1A5F4319BFC63D59BA86E /* GJTableCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = GJTableCell.xib; sourceTree = "<group>"; };
 		9C10653B18C9793F0C5F31B5C8250A64 /* Pods-GJTableCell_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJTableCell_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A523B6E0843F49C35B00F8B9CD9E3E93 /* Pods-GJTableCell_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJTableCell_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B094E8DECAAAF1E4FEEC71745724D4D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,25 +63,23 @@
 		E469BCD26E04A582193DB3AA5E8348BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E485115ED2E5DB8D08BF1BFC73E1D841 /* Pods-GJTableCell_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJTableCell_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F2F8B8883F2C4C04EC0C9E0D5AB757DA /* Pods-GJTableCell_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJTableCell_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F374D7D41D40B8E3008C1782 /* TableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableCell.xib; sourceTree = "<group>"; };
-		F374D7D51D40B8E3008C1782 /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		FA67D4ACE9916371ACE575CF04C8B370 /* GJTableCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJTableCell-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		152736EF89DBB2ECDA0F6CD18E43E12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E38C51FD59F208BC20DCAC9BFE1C2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		201716FAEB9E7A75ACB18444EFEF3C34 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B4E49DE574F919C70A2961A111AE6D4E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC74CC62BD1D2E4ECEC7A59134AEC63C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2FE1A985DAF9B5880C5436E6B8E08518 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,14 +94,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0719DE02EA549A005B3198F817048E74 /* GJTableCell */ = {
-			isa = PBXGroup;
-			children = (
-				C26E01E9F725484F1D3B716816B4354B /* Classes */,
-			);
-			path = GJTableCell;
-			sourceTree = "<group>";
-		};
 		0817CD387C4EB5617F6C08CDD5A03ACF /* Pods-GJTableCell_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,10 +112,18 @@
 			path = "Target Support Files/Pods-GJTableCell_Example";
 			sourceTree = "<group>";
 		};
+		0D2A3A916688A4F70D79907E1D6FA844 /* GJTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				CECDBF1560DCBA78B2BB4248E97093BA /* Classes */,
+			);
+			path = GJTableCell;
+			sourceTree = "<group>";
+		};
 		1CBCF3A3108C43E90FF04606A065EEFF /* GJTableCell */ = {
 			isa = PBXGroup;
 			children = (
-				0719DE02EA549A005B3198F817048E74 /* GJTableCell */,
+				0D2A3A916688A4F70D79907E1D6FA844 /* GJTableCell */,
 				2B68076456D02C880D193B6DC0677AC8 /* Support Files */,
 			);
 			name = GJTableCell;
@@ -189,11 +190,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C26E01E9F725484F1D3B716816B4354B /* Classes */ = {
+		CECDBF1560DCBA78B2BB4248E97093BA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F374D7D41D40B8E3008C1782 /* TableCell.xib */,
-				F374D7D51D40B8E3008C1782 /* TableCell.swift */,
+				38411204525E2CF4CD94DDC7F4F44839 /* GJTableCell.swift */,
+				99D11D88A0C1A5F4319BFC63D59BA86E /* GJTableCell.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -235,11 +236,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4138A0ADEE6025EA03BCBC40C608460C /* Headers */ = {
+		A38AC6B6AD924CBE276FCC3DF334DFFC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0AEA1D5002D8EEDC28FC71662B226FE /* GJTableCell-umbrella.h in Headers */,
+				483B96D7E985F540FA3A723C1DB5EBC0 /* GJTableCell-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,23 +255,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		10EF289F11D22F9185ED416E5B6283B5 /* GJTableCell */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 09EEC4F2E916E8EFE40910C814A83BA7 /* Build configuration list for PBXNativeTarget "GJTableCell" */;
-			buildPhases = (
-				1717CAC021A593396C0505029DBF1E5C /* Sources */,
-				EC74CC62BD1D2E4ECEC7A59134AEC63C /* Frameworks */,
-				4138A0ADEE6025EA03BCBC40C608460C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = GJTableCell;
-			productName = GJTableCell;
-			productReference = 80DAB19A7C23BCAF38CF51C996C9FF5B /* GJTableCell.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		23DF557F660F373FA15784C991A6A4C2 /* Pods-GJTableCell_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08CE8B446B02BFBE7A61FA2FDEFDBDF8 /* Build configuration list for PBXNativeTarget "Pods-GJTableCell_Tests" */;
@@ -306,6 +290,23 @@
 			productReference = 78AF342B8CF2E4AE761DA5C63F3DC1A9 /* Pods_GJTableCell_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		9FD3764829C93E8458BAEF5E822B48A8 /* GJTableCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0373171C93FCC98BC25648458A2BAAEA /* Build configuration list for PBXNativeTarget "GJTableCell" */;
+			buildPhases = (
+				0CD3F20D66B35BF64B7A3271A2FDB692 /* Sources */,
+				152736EF89DBB2ECDA0F6CD18E43E12E /* Frameworks */,
+				A38AC6B6AD924CBE276FCC3DF334DFFC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GJTableCell;
+			productName = GJTableCell;
+			productReference = 80DAB19A7C23BCAF38CF51C996C9FF5B /* GJTableCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -327,7 +328,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				10EF289F11D22F9185ED416E5B6283B5 /* GJTableCell */,
+				9FD3764829C93E8458BAEF5E822B48A8 /* GJTableCell */,
 				398A0BCC038E0E48CD9359DE41CA3A6E /* Pods-GJTableCell_Example */,
 				23DF557F660F373FA15784C991A6A4C2 /* Pods-GJTableCell_Tests */,
 			);
@@ -335,12 +336,13 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1717CAC021A593396C0505029DBF1E5C /* Sources */ = {
+		0CD3F20D66B35BF64B7A3271A2FDB692 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F374D7D61D40B8E3008C1782 /* TableCell.swift in Sources */,
-				07DBF78C8A879FC460C47933361CD73D /* GJTableCell-dummy.m in Sources */,
+				6AE168997783DC0C2246D8E700E68911 /* GJTableCell-dummy.m in Sources */,
+				B434774D9DC6403ABCF061514736A53D /* GJTableCell.swift in Sources */,
+				BD07C7A302D016F7AF4CCE111BF128DC /* GJTableCell.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +368,7 @@
 		B2688C414C5770EBAEECCE408B858165 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GJTableCell;
-			target = 10EF289F11D22F9185ED416E5B6283B5 /* GJTableCell */;
+			target = 9FD3764829C93E8458BAEF5E822B48A8 /* GJTableCell */;
 			targetProxy = BD0B83247547BBD7927229B4A2DDEF05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -410,38 +412,6 @@
 			};
 			name = Release;
 		};
-		32B78AEABFD8123D6F4192A2EF1F9C58 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC8F285202B88C2252425E29F7D5CA3B /* GJTableCell.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GJTableCell/GJTableCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GJTableCell/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GJTableCell/GJTableCell.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.personal.GJTableCell;
-				PRODUCT_NAME = GJTableCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4AA2969A8CC5AAADEA8BD05C24D59B20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 82E181802969DD166C72E8A4AFCED27E /* Pods-GJTableCell_Tests.debug.xcconfig */;
@@ -475,6 +445,65 @@
 			};
 			name = Debug;
 		};
+		50155DE6B0E099A649BAEC86D1B5D848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC8F285202B88C2252425E29F7D5CA3B /* GJTableCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GJTableCell/GJTableCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GJTableCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GJTableCell/GJTableCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GJTableCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D8E8547CF16C765C7E3AD2516BA7C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC8F285202B88C2252425E29F7D5CA3B /* GJTableCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GJTableCell/GJTableCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GJTableCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GJTableCell/GJTableCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GJTableCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		62571EF81188B15A6FB51E3BE8AF30F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBBC66A742E2530F61E213BF59D52F70 /* Pods-GJTableCell_Tests.release.xcconfig */;
@@ -500,37 +529,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_GJTableCell_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AD2E1985F84FDE19B619A08C4C324053 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC8F285202B88C2252425E29F7D5CA3B /* GJTableCell.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GJTableCell/GJTableCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GJTableCell/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GJTableCell/GJTableCell.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.personal.GJTableCell;
-				PRODUCT_NAME = GJTableCell;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -651,20 +649,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0373171C93FCC98BC25648458A2BAAEA /* Build configuration list for PBXNativeTarget "GJTableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8E8547CF16C765C7E3AD2516BA7C2D /* Debug */,
+				50155DE6B0E099A649BAEC86D1B5D848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		08CE8B446B02BFBE7A61FA2FDEFDBDF8 /* Build configuration list for PBXNativeTarget "Pods-GJTableCell_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AA2969A8CC5AAADEA8BD05C24D59B20 /* Debug */,
 				62571EF81188B15A6FB51E3BE8AF30F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		09EEC4F2E916E8EFE40910C814A83BA7 /* Build configuration list for PBXNativeTarget "GJTableCell" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				32B78AEABFD8123D6F4192A2EF1F9C58 /* Debug */,
-				AD2E1985F84FDE19B619A08C4C324053 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

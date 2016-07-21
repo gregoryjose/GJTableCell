@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		D0FE85C26CFE2A4EE8893A8D /* Pods_GJTableCell_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD879224AB4EBAD056D60F5 /* Pods_GJTableCell_Tests.framework */; };
+		F374D7D81D40D386008C1782 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374D7D71D40D386008C1782 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		B5581F0283A524F1A0DAB6D9 /* Pods-GJTableCell_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJTableCell_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GJTableCell_Tests/Pods-GJTableCell_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DA6F3E93D16A44E357DDBC9F /* GJTableCell.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GJTableCell.podspec; path = ../GJTableCell.podspec; sourceTree = "<group>"; };
 		E47BE70758A1B0C3CC9485A6 /* Pods-GJTableCell_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJTableCell_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GJTableCell_Example/Pods-GJTableCell_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F374D7D71D40D386008C1782 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		FCD879224AB4EBAD056D60F5 /* Pods_GJTableCell_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJTableCell_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD69DC0012949FA6C2086100 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +101,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				F374D7D71D40D386008C1782 /* TableViewController.swift */,
 			);
 			name = "Example for GJTableCell";
 			path = GJTableCell;
@@ -360,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				F374D7D81D40D386008C1782 /* TableViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

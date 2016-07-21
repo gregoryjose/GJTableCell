@@ -1,18 +1,18 @@
 {
   "name": "GJTableCell",
   "version": "0.1.0",
-  "summary": "A short description of GJTableCell.",
+  "summary": "Custom Table View Cell",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/GJTableCell",
+  "homepage": "https://github.com/gregoryjose/GJTableCell",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Gregory Jose": "gregory.jose@novare.com.hk"
+    "Gregory Jose": "jose.johngregory@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/GJTableCell.git",
+    "git": "https://github.com/gregoryjose/GJTableCell.git",
     "tag": "0.1.0"
   },
   "platforms": {
